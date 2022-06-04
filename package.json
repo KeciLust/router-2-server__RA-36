@@ -1,0 +1,20 @@
+{
+  "name": "router-2-server__RA-36",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "yarn",
+    "start": "forever server.js",
+    "watch": "forever -w server.js"
+  },
+  "repository": "https://github.com/KeciLust/router-2-server__RA-36.git",
+  "author": "Denis Nikitin <dinya.nikitin@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "forever": "^1.0.0",
+    "koa": "^2.7.0",
+    "koa-body": "^4.1.0",
+    "koa-router": "^7.4.0",
+    "koa2-cors": "^2.0.6"
+  }
+}
